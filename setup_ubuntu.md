@@ -6,3 +6,19 @@
     sudo apt-get install libpinyin
     sign out, add text input source
 
+#### init git repository
+1. gen ssh key
+    ssh-keygen -t rsa -C "email"
+2. add ssh key to github
+3. create a repository in github
+4. init local repositoty
+    git init
+5. add file to cache
+    git add -A
+6. commit change
+    git commit -m "..."
+7. add remote repository
+    git remote add origin https://github.com/username/name.git
+8. push change to origin
+    git push -u origin master # first time
+    git push origin master # later
