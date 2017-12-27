@@ -22,3 +22,10 @@
 8. push change to origin
     git push -u origin master # first time
     git push origin master # later
+
+#### install sougou
+    sudo apt-get install fcitx libssh2-1
+    download deb package from sogou
+    install deb
+    switch ibus to fcitx
+    sign out 
