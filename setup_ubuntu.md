@@ -29,3 +29,14 @@
     install deb
     switch ibus to fcitx
     sign out 
+
+#### set vim to autoindent
+    touch .vimrc file in ~ dir
+add code:
+    set tabstop=4
+    set autoindent
+    set cindent
+run:
+    source ./.vimrc
+
+
